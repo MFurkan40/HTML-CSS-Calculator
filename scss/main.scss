@@ -1,0 +1,18 @@
+@import "./base/_reset.scss";
+@import "./abstracts/_variables.scss", "./abstracts/_mixins.scss";
+
+html {
+  font-size: $default-font-size;
+}
+
+body {
+  background-image: $bgImage;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: $primary-font-family;
+}
+
+@import "./pages/home.scss";
+
+@import "./components/_responsive.scss";

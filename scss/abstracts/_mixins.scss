@@ -1,0 +1,5 @@
+//*********************  SHADOW ***************************//
+
+@mixin boxShadow($sideColor1, $sideColor2) {
+  box-shadow: -10px -10px 15px $sideColor1, 10px 10px 15px $sideColor2;
+}
