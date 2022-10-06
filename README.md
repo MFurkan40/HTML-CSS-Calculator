@@ -10,7 +10,9 @@ Project aims to create a calculator app.
 
 ## Expected Outcome
 
+<div style="text-align:center">
 <img src="./img/003.gif" alt="superset" width="auto" height="400px">
+</div>
 
 ## Objective
 
@@ -26,7 +28,7 @@ Build a Calculator that is functionally similar to an ios device calculator.
 
 ### At the end of the project, students will be able to;
 
-- improve coding skills within HTML & SASS/SCSS & JS
+- improve coding skills within HTML & SASS/SCSS & JS(OOP)
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
@@ -44,11 +46,12 @@ Build a Calculator that is functionally similar to an ios device calculator.
     - Give name of your project (title)
     - Create the main structur of the HTML
 
-> > Part-2 CSS Structure
+> > Part-2 SCSS Structure
 
+    - Set a folder structure and define the variables
     - Set a background
     - Set container background color and margin
-    - Define others color-size-padding etc...
+    - Define others grid-size etc...
 
 > Part-3 JS Structure
 
