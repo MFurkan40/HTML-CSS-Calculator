@@ -10,33 +10,31 @@
   <body>
     <div class="calculator">
       <div class="calculator__input-display">
-        <input
-          type="textarea"
-          class="calculator__input-screen"
-          name="inputScreen"
-        />
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
       </div>
       <div class="content">
-        <button class="box box__grey">AC</button>
-        <button class="box box__grey">±</button>
-        <button class="box box__grey">%</button>
-        <button class="box box__orange">÷</button>
-        <button class="box box__2-1">7</button>
-        <button class="box box__2-2">8</button>
-        <button class="box box__2-3">9</button>
-        <button class="box box__orange">x</button>
-        <button class="box box__3-1">4</button>
-        <button class="box box__3-2">5</button>
-        <button class="box box__3-3">6</button>
-        <button class="box box__orange">-</button>
-        <button class="box box__4-1">1</button>
-        <button class="box box__4-2">2</button>
-        <button class="box box__4-3">3</button>
-        <button class="box box__orange">+</button>
-        <button class="box box__5-1">0</button>
-        <button class="box box__5-2">.</button>
-        <button class="box box__5-3">=</button>
+        <button data-all-clear class="box box__grey">AC</button>
+        <button data-delete class="box box__grey">DEL</button>
+        <button data-operation class="box box__grey">%</button>
+        <button data-operation class="box box__orange">÷</button>
+        <button data-number class="box box__2-1">7</button>
+        <button data-number class="box box__2-2">8</button>
+        <button data-number class="box box__2-3">9</button>
+        <button data-operation class="box box__orange">x</button>
+        <button data-number class="box box__3-1">4</button>
+        <button data-number class="box box__3-2">5</button>
+        <button data-number class="box box__3-3">6</button>
+        <button data-operation class="box box__orange">-</button>
+        <button data-number class="box box__4-1">1</button>
+        <button data-number class="box box__4-2">2</button>
+        <button data-number class="box box__4-3">3</button>
+        <button data-operation class="box box__orange">+</button>
+        <button data-number class="box box__5-1">0</button>
+        <button data-number class="box box__5-2">.</button>
+        <button data-equals class="box box__5-3">=</button>
       </div>
+      <script src="./js/app.js" defer></script>
     </div>
   </body>
 </html>
