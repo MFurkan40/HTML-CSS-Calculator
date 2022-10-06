@@ -11,7 +11,7 @@ Project aims to create a calculator app.
 ## Expected Outcome
 
 <div style="text-align:center">
-<img src="./img/003.gif" alt="superset" width="auto" height="400px">
+<img src="./img/003.gif" alt="superset" width="100%" height="400px">
 </div>
 
 ## Objective
