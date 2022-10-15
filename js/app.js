@@ -12,7 +12,15 @@ class Calculator {
   }
 
   delete() {
-    this.currentOperand = this.currentOperand.toString().slice(0, -1);
+    if (this.previousOperand) {
+      this.currentOperand = this.previousOperand
+        .toString()
+        .slice(0, this.previousOperand.toString().length);
+      this.previousOperand = "";
+      this.operation = undefined;
+    } else {
+      this.currentOperand = this.currentOperand.toString().slice(0, -1);
+    }
   }
 
   appendNumber(number) {
@@ -61,7 +69,6 @@ class Calculator {
     // console.log(stringNumber);
 
     const integerDigits = parseFloat(stringNumber.split(".")[0]);
-    // console.log(integerDigits);
 
     const decimalDigits = stringNumber.split(".")[1];
     // console.log(decimalDigits);
