@@ -11,6 +11,7 @@ class Calculator {
     this.operation = undefined; // any operation selected
   }
 
+  // Lastupdate
   delete() {
     if (this.previousOperand) {
       this.currentOperand = this.previousOperand
