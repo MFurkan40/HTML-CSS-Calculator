@@ -1,6 +1,10 @@
 @import "./base/_reset.scss";
 @import "./abstracts/_variables.scss", "./abstracts/_mixins.scss";
 
+@import "./pages/home.scss";
+
+@import "./components/_responsive.scss";
+
 html {
   font-size: $default-font-size;
 }
@@ -12,7 +16,3 @@ body {
   background-size: cover;
   font-family: $primary-font-family;
 }
-
-@import "./pages/home.scss";
-
-@import "./components/_responsive.scss";
